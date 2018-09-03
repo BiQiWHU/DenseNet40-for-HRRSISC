@@ -6,8 +6,7 @@ Dataset:UC Merced Dataset
 Training samples：test samples=8：2
 Different from the original implementation in computer vision, Adam optimizer is used in this project.
 
-tfdata.py: Transfer the original dataset images into standard tensorflow format,   
-and generate pipelines for training.
+tfdata.py: Transfer the original dataset images into standard tensorflow format,and generate pipelines for training.
 training.py: Train DenseNet40 
 testacc.py:Using trained model in training.py to test on the test samples, output the overall accuracy and each class's classification accuracy.
 
